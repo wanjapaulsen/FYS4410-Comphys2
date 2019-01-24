@@ -5,5 +5,6 @@
 
 #include "methods.h"
 
+void exe_b();
 
 #endif // EXERCISES_H

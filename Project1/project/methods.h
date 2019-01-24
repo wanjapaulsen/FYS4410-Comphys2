@@ -3,9 +3,9 @@
 #include <random>
 #include <iostream>
 
-int Metropolis(double R, std::mt19937_64& seed, double step, double alpha);
+void Metropolis(double& R, std::mt19937_64& seed, double step, double alpha, double wf);
 double wavefunction(double alpha, double R);
-double local_energy(double step, double alpha, double R, double wf_old, double E);
+double local_energy(double step, double alpha, double R, double wf_old);
 
 class methods
 {
